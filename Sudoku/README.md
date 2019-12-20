@@ -1,1 +1,4 @@
+# Pythonic Sudoku Solver
+Have you ever been stuck on a Sudoku problem? Well Python has your answer. The [Basic Solver](./sudokuSolverBasic.py) requires the user to add the positional values for an unsolved Sudoku problem as a matrix in the code. Then, the program will solve the game and display both the unsolved board and the solved board in the terminal window. The games are formatted to improve the readability for the user.
 
+This program uses backtracking to reduce the number of overall computations required to solve the game. If an invalid entry is found, the program returns to a previous step and attempts to solve that position again. This process repeats until all fields contain valid entries and the game is solved. 
